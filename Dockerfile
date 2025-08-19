@@ -14,4 +14,4 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 COPY --from=build-stage /app/dist /usr/local/tomcat/webapps/ecommerce
 
 EXPOSE 8082
-CMD ["catalina.sh", "run"]
+CMD ["catalina.sh , run"]
